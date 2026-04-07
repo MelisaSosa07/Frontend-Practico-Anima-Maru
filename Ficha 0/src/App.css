@@ -1,0 +1,19 @@
+.titulo-principal {
+  text-align: center;
+  color: #ff4da6;
+  margin-top: 20px;
+}
+
+.parrafo-principal {
+  text-align: center;
+  color: #c2185b;
+  font-size: 1.2rem;
+}
+
+.contenedor-tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 50px;
+}

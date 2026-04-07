@@ -2,11 +2,15 @@ import "./Tarjeta.css";
 
 function Tarjeta(props) {
   return (
-    <div>
-      <h1>Hola {props.nombre}</h1>
-      <h3>{props.descripcion}</h3>
-      <a href={props.link}>Link</a>
-      <img src={props.imagen} alt="gatito"></img>
+    <div className="card" style={{ width: "18rem" }}>
+      <img src={props.imagen} className="card-img-top" alt="gatito"></img>
+      <div className="card-body">
+        <h3 className="card-title">Hola {props.nombre}</h3>
+        <h5 className="card-text">{props.descripcion}</h5>
+        <a href={props.link} className="boton-link">
+          Link
+        </a>
+      </div>
     </div>
   );
 }

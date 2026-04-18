@@ -1,0 +1,36 @@
+body {
+  background: linear-gradient(135deg, #ffe6f0, #ffd6eb);
+  font-family: Arial, sans-serif;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 200px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(255, 105, 180, 0.2);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.card h2 {
+  color: #ff4d94;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #666;
+}
+
+.card:hover {
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 12px 25px rgba(255, 105, 180, 0.3);
+}
